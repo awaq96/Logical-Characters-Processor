@@ -1,0 +1,59 @@
+tests.txt
+
+Upper case
+x canary test
+x convert "a" to "A"
+x convert "A" to "A"
+x convert "1" to "1"
+x convert "~" to "~"
+x convert "" to ""
+
+Lower case
+x convert "A" to "a"
+x convert "a" to "a"
+x convert "1" to "1"
+x convert "~" to "~"
+x convert "" to ""
+
+Multiplier Block
+x convert "A" to "AA"
+x convert "a" to "aa"
+x convert "1" to "11"
+x convert "~" to "~~"
+x convert "" to ""
+
+ z-blocker Block
+x convert "A" to "A"
+x convert "a" to "a"
+x convert "1" to "1"
+x convert "~" to "~"
+x convert "" to ""
+x convert "z" to ""
+
+Z-blocker Block
+x convert "A" to "A"
+x convert "a" to "a"
+x convert "1" to "1"
+x convert "~" to "~"
+x convert "" to ""
+x convert "Z" to ""
+
+
+k-blocker Block
+x convert "A" to "A"
+x convert "a" to "a"
+x convert "1" to "1"
+x convert "~" to "~"
+x convert "" to ""
+x convert "k" to ""
+
+Processor:
+x processor takes string and no blocks, returns given string
+x processor takes string and uppercase block, returns string in uppercase
+x processor takes string and lowercase block, returns string in lower case
+x processor takes string and multiplier block, returns string with letters repeated
+
+x processor takes string "abzcd" and uppercase block and Z blocker, returns ABCD
+x processor takes string "abzcd" and Z blocker and uppercase, returns ABZCD
+x processor takes string "abzcd" and uppercase and multiplier
+x processor takes string "abzcd" and Z blocker, uppercase, and multiplier

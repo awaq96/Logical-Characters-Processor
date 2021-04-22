@@ -1,0 +1,8 @@
+processes
+processor_string
+lower_case_converter:convert_to_lower
+multiplier_block:multiply_occurence
+upper_case_converter:convert_to_upper
+multiplier_block:multiply_occurence
+blocker:blocker:B
+e_to_tilda:e_to_tilda
